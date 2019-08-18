@@ -1,58 +1,69 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Davide Vosti</title>
-    <link href="./CSS/style.css" rel="stylesheet" media="screen,projection" type="text/css" />
+    
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
     <meta name="description" content="Davide Vosti's page" />
     <meta name="keywords" content="Davide Vosti, Vosti" />
 </head>
+<style>
+body {
+	background:#ffffff;
+	font: 14px/1.95em "Lucida Grande","Lucida Sans Unicode",geneva,verdana,sans-serif;
+}
+
+html {
+	border:5px solid #ffffff;
+	border-left:10px solid #ffffff;
+	border-right:10px solid #ffffff;
+}
+
+* {
+	margin:0;
+	padding:0;
+	outline:none;
+}
+
+#links{
+	text-align:right;
+}
+
+#body{
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+    height: 300px;
+}
+
+ul
+{
+	padding:0;
+	font-weight:bold;
+	margin:0; 
+}
+
+ul li {
+	display:inline;
+	list-style:none;
+}
+
+ul li a {
+	padding:3px 5px;
+	text-decoration: none;
+}
+</style>
+
 <body>
     <div id="links">
         <ul>
-            <li><a href="http://geeksonsoftware.com">GeeksOnSoftware</a></li>
-            <li><a href="http://39x27.com">39x27</a></li>
             <li><a href="http://twitter.com/vosti">twitter</a></li>
-            <li><a href="http://flickr.com/photos/vosti">foto</a></li>
             <li><a href="mailto:davide@vosti.ch">mail</a></li>
             <li><a href="https://stackoverflow.com/story/davide-vosti">cv</a></li>
         </ul>
     </div>
-    <div>
-        <table>
-            <tr valign="middle">
-                <th>
-                    <h1>
-                        Paris Roubaix 2008</h1>
-                    <h2>
-                        dedicata a chi non è più qua accanto per condividere la gioia</h2>
-                </th>
-            </tr>
-            <tr>
-                <td>
-                    <img src="http://farm4.static.flickr.com/3060/2565612623_ae3b52f6be_b.jpg" width="600px"
-                         alt="Paris Roubaix 2008" />
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div>
-        <table>
-            <tr valign="middle">
-                <th>
-                    <h1>
-                        IM Zürich 2014</h1>
-                    <h2>
-                        dedicato a chi non è più qua accanto per condividere la gioia</h2>
-                </th>
-            </tr>
-            <tr>
-                <td>
-                    <img src="https://c1.staticflickr.com/3/2907/14787415452_85ed23e3a1_b.jpg" width="600px"
-                         alt="Paris Roubaix 2008" />
-                </td>
-            </tr>
-        </table>
+    <div id="body">
+        Life's short, #sendit.
     </div>
     <script type="text/javascript">
         var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
